@@ -1,3 +1,5 @@
+### My personal DWM config
+
 ![Dwm](https://github.com/CrisitoJ/dwm/blob/main/example.png)
 
 Patches:
@@ -25,3 +27,8 @@ mv wallpaperName ~/wallpapers
 ```
 if you prefer to save the wallpaper in another directory, modify the path of the 2 line of the autostart line
 
+Set up your own browser keybind on line 64
+```bash
+#Change the brave word if u use another browser
+static const char *browser[] = { "brave", NULL };
+```
