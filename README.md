@@ -1,6 +1,8 @@
 ### My personal DWM config
 
 ![Dwm](https://github.com/CrisitoJ/dwm/blob/main/example.png)
+![Dwm](https://github.com/CrisitoJ/dwm/blob/main/example2.png)
+
 
 I Recommend to save /dwm on .config 
 
