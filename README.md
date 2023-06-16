@@ -2,7 +2,7 @@
 
 ![Dwm](https://github.com/CrisitoJ/dwm/blob/main/example.png)
 
-I Recommend /dwm on .config 
+I Recommend to save /dwm on .config 
 
 Patches:
 - [autostart](https://dwm.suckless.org/patches/autostart/dwm-autostart-20200610-cb3f58a.diff)
