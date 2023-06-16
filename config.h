@@ -62,7 +62,6 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "/usr/bin/alacritty", NULL };
 static const char *roficmd[] = { "rofi", "-show", "drun", "-show-icons", NULL };
 static const char *brave[] = { "brave", NULL };
-static const char *shotgun[] = { "shotgun -s", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
