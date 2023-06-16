@@ -68,6 +68,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_r,      spawn,          {.v = roficmd } }, //rofi
 	{ MODKEY,												XK_b,			 spawn,					 {.v = brave	 } }, // brave
 	{ MODKEY,                       XK_n,      resetlayout,    {0} },
+	{ MODKEY,                                               XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_q,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
