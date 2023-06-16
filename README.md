@@ -1,4 +1,4 @@
-!(./example.png)
+![Dwm](https://github.com/CrisitoJ/dwm/blob/main/example.png)
 
 Patches:
 - [autostart](https://dwm.suckless.org/patches/autostart/dwm-autostart-20200610-cb3f58a.diff)
