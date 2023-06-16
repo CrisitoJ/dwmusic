@@ -1,5 +1,5 @@
 #!/bin/bash
-startx dwm
-feh --bg-fill wallpapers/brown.jpg
+feh --bg-fill wallpapers/a7.jpg
 slstatus &
 picom &
+sxhdk &
