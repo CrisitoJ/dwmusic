@@ -2,6 +2,8 @@
 
 ![Dwm](https://github.com/CrisitoJ/dwm/blob/main/example.png)
 
+I Recommend /dwm on .config 
+
 Patches:
 - [autostart](https://dwm.suckless.org/patches/autostart/dwm-autostart-20200610-cb3f58a.diff)
 - [actualfullscreen](https://dwm.suckless.org/patches/actualfullscreen/dwm-actualfullscreen-20211013-cb3f58a.diff)
@@ -16,8 +18,9 @@ Personal dependencies:
 - [slstatus](https://tools.suckless.org/slstatus/)
 - [Hurmit Nerd Font](https://www.programmingfonts.org/#hermit)
 
+
+Set up the autostart.sh
 ```bash
-#Move the autostart.sh to your home directory
 mv autostart.sh ~/
 ```
 Download the [wallpaper](https://www.wallpaperbetter.com/en/hd-wallpaper-uelhc) and move it to ~/wallpapers
