@@ -5,7 +5,7 @@ static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Hurmit Nerd Font:size=10" };
+static const char *fonts[]          = { "Ubuntu Nerd Font:size=10.2" };
 static const unsigned int gappx     = 17;        /* gaps between windows */
 static const char dmenufont[]       = "Hurmit Nerd Font:size=9";
 static const char col_gray1[]       = "#222222";
@@ -15,12 +15,12 @@ static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, "#000000", "#281229" },
-	[SchemeSel]  = { col_gray3, "#4E7785",  "#4E7785"  },
+	[SchemeNorm] = { col_gray3, "#000000", "#201f28" },
+	[SchemeSel]  = { col_gray3, "#424153",  "#424153"  },
 
 };
 /* tagging */
-static const char *tags[] = { "󰣇","","","","","","" };
+static const char *tags[] = { "󰣇","","","󰋄","","","" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -66,7 +66,7 @@ static const char *browser[] = { "brave", NULL };
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_r,      spawn,          {.v = roficmd } }, //rofi
-	{ MODKEY,												XK_b,			 spawn,					 {.v = browser	 } }, // brave
+	{ MODKEY,												XK_b,			 spawn,					 {.v = browser	 } }, // librewolf
 	{ MODKEY,                       XK_n,      resetlayout,    {0} },
 	{ MODKEY,                                               XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_q,      togglebar,      {0} },
