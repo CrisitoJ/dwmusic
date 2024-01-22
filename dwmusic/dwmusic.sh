@@ -34,9 +34,9 @@ _theme() {
     if ! _theme_exists "$1"; then
         echo "Theme not found."
     else
-        sed -i "s|themes/[^\"]*|themes/$1.h|" "$WALLPAPER_DIR"/config.h
+        sed -i "s|themes/[^\"]*|themes/$1.h|" "$DWM_DIR"/config.h
         _wallpaper "$1"
-        cd "$WALLPAPER_DIR" && sudo make clean install
+        cd "$DWM_DIR" && sudo make clean install
         _reload
     fi
 }
@@ -57,7 +57,7 @@ _reload() {
 
 _wallpaper() {
     local theme="$1"
-    sed -i "s|wallpapers/[^\"]*|wallpapers/$theme.jpg|" "$WALLPAPER_DIR"/autostart.sh
+    sed -i "s|wallpapers/[^\"]*|wallpapers/$theme.jpg|" "$DWM_DIR"/autostart.sh
 }
 
 case "$#" in

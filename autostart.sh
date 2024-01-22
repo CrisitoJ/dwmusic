@@ -1,5 +1,5 @@
 #!/bin/bash
-feh --bg-fill wallpapers/dystopia-theme.jpg
+feh --bg-fill wallpapers/sentinel-theme.jpg
 slstatus &
 picom &
 sxhdk &

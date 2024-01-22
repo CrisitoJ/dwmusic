@@ -11,7 +11,7 @@ static const unsigned int gappx     = 17;        /* gaps between windows */
 static const char dmenufont[]       = "Hurmit Nerd Font:size=9";
 static const char *fonts[]          = { "Ubuntu Nerd Font:size=10.2" };
 
-#include "/home/Cris/.config/dwm/themes/dystopia-theme.h"
+#include "themes/sentinel-theme.h"
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray1, col_gray2, col_gray3 },
