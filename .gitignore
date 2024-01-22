@@ -3,6 +3,6 @@ dwm
 *.orig
 *.rej
 *.o
-patches
+patches/
 
 
