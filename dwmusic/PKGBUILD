@@ -11,7 +11,7 @@ noextract=()
 validpgpkeys=()
 source=("dwmusic.sh")
 
-sha256sums=("c287f1f94943c131b509f3f2558e5ca566007c86b2b7fbf2912c48e42f3c5265")  
+sha256sums=("6fde09bb5543eff731a17d039311395a7315e48ea95bb749e8db917af6d660dd")  
 
 package() {
 	install -Dm755 "${srcdir}/dwmusic.sh" "${pkgdir}/usr/bin/dwmusic"

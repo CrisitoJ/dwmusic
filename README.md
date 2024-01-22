@@ -49,6 +49,7 @@ dwm -t [THEME-NAME] # Select theme. try dwm -t dystopia
   Also, if you prefer to save the wallpapers into another folder, remember to modify the variable THEME_DIR into the script.
 
 ## Keys
+<<<<<<< HEAD
 
 - `MOD + B` -- Open brave browser
 - `MOD + R` -- Open rofi
@@ -73,3 +74,27 @@ any idea of implementation could be described into the Issues tabs. Currently i'
 
 
   
+=======
+
+- `MOD + B` -- Open brave browser
+- `MOD + R` -- Open rofi
+- `MOD + Enter` -- Open alacritty
+- `MOD + SHIFT + F` -- Full screen
+- `MOD + SHIFT + Right Arrow` -- Move focus sreen to the right tag
+- `MOD + SHIFT + Left Arrow` -- Move focus sreen to the left tag
+
+## Contribute
+There's 2 ways you can contribute to this project: add new themes and improve the dwmusic script.
+
+### Add new theme:
+Wallpaper: It should be an illustration or a portrait of any album. 
+Colors: Try to innovate the color pallete. There's bunch of wallpappers that could be match with the currents themes. So, if preferable to focus on the color palette.
+URL: remember to add the origin of the wallpaper.
+Bar: Currently, the bar is quiet simple. if you have any idea, or suggestion. you can write it into the Issues tab.
+
+### Script
+Any improvement to the script or PKBUILD, will be appreciated.
+Currently the script don't have msg error, LICENSE(GPLv3) , or MAN
+any idea of implementation could be described into the Issues tabs. Currently i'm thinkin to add a script to download the wallpapers based on monitor sizes, instead of add them into the repo.
+
+>>>>>>> 1e39fd6 (some changes)
