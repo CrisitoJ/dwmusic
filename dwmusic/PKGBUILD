@@ -1,0 +1,18 @@
+# PKGBUILD
+
+pkgname=dwmusic
+pkgver=1
+pkgrel=1
+pkgdesc="CLI for custom DWM themes. For each theme, it includes palette colors and wallpapers"
+arch=("x86_64")
+license=('GPLv3')
+depends=('feh')
+noextract=()
+validpgpkeys=()
+source=("dwmusic.sh")
+
+sha256sums=("c287f1f94943c131b509f3f2558e5ca566007c86b2b7fbf2912c48e42f3c5265")  
+
+package() {
+	install -Dm755 "${srcdir}/dwmusic.sh" "${pkgdir}/usr/bin/dwmusic"
+}

@@ -1,5 +1,5 @@
 #!/bin/bash
-feh --bg-fill wallpapers/a7.jpg
+feh --bg-fill wallpapers/megadeth-theme.jpg
 slstatus &
 picom &
 sxhdk &

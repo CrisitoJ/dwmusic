@@ -1,4 +1,4 @@
-### My personal DWM config
+# Dwmusic
 
 ![Dwm](https://github.com/CrisitoJ/dwm/blob/main/example.png)
 ![Dwm](https://github.com/CrisitoJ/dwm/blob/main/example2.png)
