@@ -79,8 +79,7 @@ any idea of implementation could be described into the Issues tabs. Currently i'
 
 
   
-=======
-
+### Keys
 - `MOD + B` -- Open brave browser
 - `MOD + R` -- Open rofi
 - `MOD + Enter` -- Open alacritty
@@ -102,4 +101,3 @@ Any improvement to the script or PKBUILD, will be appreciated.
 Currently the script don't have msg error, LICENSE(GPLv3) , or MAN
 any idea of implementation could be described into the Issues tabs. Currently i'm thinkin to add a script to download the wallpapers based on monitor sizes, instead of add them into the repo.
 
->>>>>>> 1e39fd6 (some changes)
