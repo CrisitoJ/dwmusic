@@ -11,6 +11,11 @@
 ## How install and use the themes.
 This repository assumes you have dwm on ~/.config. In case not, you should modify the 3 variables on the script. Else, just follow the instructions
 
+#### mv folder
+move folder .dwmusic to ./dwm
+```bash
+mv ~/.config/dwmusic ~/.config/dwm
+```
 #### Make the package
 ```bash
 cd dwmusic
