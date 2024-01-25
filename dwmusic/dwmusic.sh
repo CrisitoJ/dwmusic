@@ -33,6 +33,7 @@ _theme_exists() {
 _theme() {
     if ! _theme_exists "$1"; then
         echo "Theme not found."
+		exit 1
     else
         sed -i "s|themes/[^\"]*|themes/$1.h|" "$DWM_DIR"/config.h
         _wallpaper "$1"
@@ -47,10 +48,11 @@ _reload() {
     case "${answer,,}" in
         y|yes)
             echo "Reloading session..."
-			killall -HUP dwm
+			pkill -USR1 dwm
             ;;
         *)
             echo "Session not reloaded."
+			exit 1
             ;;
     esac
 }
